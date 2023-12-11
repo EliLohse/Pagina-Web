@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E0E3545-8E52-5319-E437-87BAA2BE3A03" name="CLIENTE">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-30 22:09:56 UTC</createdTime>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<engineerTo>
+<item key="C1F23950-88EC-3EB4-816B-5CD31EC5054F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Cliente" id="22CC8457-435D-9376-4455-0EC06252BD95">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-30 22:10:12 UTC</createdTime>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<engineerTo>
+<item key="C1F23950-88EC-3EB4-816B-5CD31EC5054F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Forma_de_Pago" id="DFC58845-2D76-DFC0-32ED-1A1185970204">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-30 22:15:58 UTC</createdTime>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<engineerTo>
+<item key="C1F23950-88EC-3EB4-816B-5CD31EC5054F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Perfil" id="344585B3-7461-346C-3D36-6BD737C9EA3C">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 17:02:04 UTC</createdTime>
+<generatorID>9B9B5C84-291A-2C37-33CA-34F1BBE7717D</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<engineerTo>
+<item key="C1F23950-88EC-3EB4-816B-5CD31EC5054F" value="true"/>
+</engineerTo>
+<referedAttribute>A00A08C8-A2F2-297E-485A-8727197C723B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="833A45A0-374B-DBF7-96EB-DFA30A369E6C" name="CLIENTE PK">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-30 22:10:49 UTC</createdTime>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C1F23950-88EC-3EB4-816B-5CD31EC5054F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22CC8457-435D-9376-4455-0EC06252BD95</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

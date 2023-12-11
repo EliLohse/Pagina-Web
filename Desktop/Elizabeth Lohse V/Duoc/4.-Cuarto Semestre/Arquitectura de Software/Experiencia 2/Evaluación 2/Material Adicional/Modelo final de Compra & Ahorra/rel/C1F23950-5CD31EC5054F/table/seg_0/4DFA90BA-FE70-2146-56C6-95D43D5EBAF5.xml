@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4DFA90BA-FE70-2146-56C6-95D43D5EBAF5" name="COMENTARIO">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-31 00:10:11 UTC</createdTime>
+<generatorID>F028D3B3-5AB1-B13A-3CA5-CE9AB9666AED</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Comentario" id="0FA4129B-6B84-B510-2E67-075526A60EC3">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-31 00:10:11 UTC</createdTime>
+<generatorID>D442F63D-A72A-DB72-C748-6A5E293C913C</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valoración" id="244853B1-DBCC-7352-054D-2F20C9B71EA5">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-31 00:10:11 UTC</createdTime>
+<generatorID>3CE8EEDB-FE2D-DAC4-DB01-164882CAC342</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripción" id="5556356D-C123-FA3E-A0E3-9D471CABBB3D">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-31 00:10:11 UTC</createdTime>
+<generatorID>3EFBBD05-47E0-7BFD-69EC-5AC64CB974E1</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTO_ID_Producto" id="65A3EF7F-9DBF-F249-3DB6-F1856B29FCB5">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-31 00:10:11 UTC</createdTime>
+<generatorID>336524AC-5B13-5894-56C6-722ED792317C</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5CA8AC9-15D4-F8F0-6BC0-DF9583102CA2" referredColumn="6AED224B-C4F4-C3E7-DA7D-7737030668ED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CD737DD-0921-3F7E-B5DC-079443D80D2F" name="COMENTARIO_PK">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-31 00:10:11 UTC</createdTime>
+<generatorID>FCDD29A6-8A4A-A6A2-FE66-36D1C29ACFA2</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FA4129B-6B84-B510-2E67-075526A60EC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28815F17-B78F-7164-C6F2-059DE96D5D7C" name="COMENTARIO_PRODUCTO_FK">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-31 00:10:11 UTC</createdTime>
+<generatorID>E1527E39-3117-AA03-25E3-9D7E32883EE1</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65A3EF7F-9DBF-F249-3DB6-F1856B29FCB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

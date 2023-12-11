@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADC33063-3C34-79BD-ADAE-988565B3CA95" name="ADMINISTRADOR">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-30 21:58:33 UTC</createdTime>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<engineerTo>
+<item key="C1F23950-88EC-3EB4-816B-5CD31EC5054F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributeInherType>All atributes</attributeInherType>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Administrador" id="DC0C4781-F424-D263-E52A-AD330FF0697C">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-30 21:58:50 UTC</createdTime>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<engineerTo>
+<item key="C1F23950-88EC-3EB4-816B-5CD31EC5054F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Perfil" id="0F6B88E9-0F21-DEC2-5EDA-7385E5114260">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 17:02:39 UTC</createdTime>
+<generatorID>214B7381-9B54-2A24-A8F6-11C35B1639DB</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<engineerTo>
+<item key="C1F23950-88EC-3EB4-816B-5CD31EC5054F" value="true"/>
+</engineerTo>
+<referedAttribute>A00A08C8-A2F2-297E-485A-8727197C723B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E6BF8B11-9962-EE61-03A8-EECC39BB5220" name="ADMINISTRADOR PK">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-30 21:59:29 UTC</createdTime>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C1F23950-88EC-3EB4-816B-5CD31EC5054F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DC0C4781-F424-D263-E52A-AD330FF0697C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

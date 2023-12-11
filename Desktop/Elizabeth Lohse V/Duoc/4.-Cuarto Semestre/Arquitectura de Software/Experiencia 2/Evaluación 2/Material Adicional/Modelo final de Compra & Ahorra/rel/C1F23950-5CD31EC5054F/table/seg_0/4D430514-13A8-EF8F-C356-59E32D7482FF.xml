@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D430514-13A8-EF8F-C356-59E32D7482FF" name="CLIENTE">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-31 00:10:11 UTC</createdTime>
+<generatorID>5E0E3545-8E52-5319-E437-87BAA2BE3A03</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Cliente" id="D443D9BC-F264-93E2-9835-419422C46B85">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-31 00:10:11 UTC</createdTime>
+<generatorID>22CC8457-435D-9376-4455-0EC06252BD95</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Forma_de_Pago" id="9EF6F6C3-1C03-4D56-F74E-C50C8248B1AC">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-31 00:10:11 UTC</createdTime>
+<generatorID>DFC58845-2D76-DFC0-32ED-1A1185970204</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERFIL_USUARIO_ID_Perfil" id="20695B5B-33FE-2832-B250-AC1A22315891">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 17:17:02 UTC</createdTime>
+<generatorID>344585B3-7461-346C-3D36-6BD737C9EA3C</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF52CC59-E657-4C29-7B62-E1B55401F60D" referredColumn="B48BFD9A-3C7D-D46D-E814-B1218914A39E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FD554AA-A045-697A-DEB3-2D6E6D7BB2EC" name="CLIENTE_PK">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-31 00:10:11 UTC</createdTime>
+<generatorID>833A45A0-374B-DBF7-96EB-DFA30A369E6C</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20695B5B-33FE-2832-B250-AC1A22315891"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA6537D5-EEDE-3C33-A133-B55905B0B106" name="CLIENTE_PERFIL_USUARIO_FK">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 17:17:02 UTC</createdTime>
+<generatorID>9B9B5C84-291A-2C37-33CA-34F1BBE7717D</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20695B5B-33FE-2832-B250-AC1A22315891"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

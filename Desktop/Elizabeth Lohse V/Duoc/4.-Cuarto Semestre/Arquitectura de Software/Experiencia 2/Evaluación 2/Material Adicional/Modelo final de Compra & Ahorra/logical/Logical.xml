@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="11AB90C3-41C6-4C94-DE5C-2FDC228D3493" mainViewID="65A210FA-5151-FCD9-7437-3937C7903DE3">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-30 21:57:38 UTC</createdTime>
+<ownerDesignName>Modelo Relaciona Compra &amp; Ahorra</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

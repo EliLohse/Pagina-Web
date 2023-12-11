@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="971B5727-2B16-6A18-24EA-6F6FCEDFF9BB" name="PERFIL_USUARIO">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 16:58:45 UTC</createdTime>
+<generatorID>371166BD-4D2A-5F00-4E00-7F641D95C3CC</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Perfil" id="B48BFD9A-3C7D-D46D-E814-B1218914A39E">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 16:58:45 UTC</createdTime>
+<generatorID>A00A08C8-A2F2-297E-485A-8727197C723B</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rut" id="75D0C4EF-5F75-7C38-8A05-1679929BFB49">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 16:58:45 UTC</createdTime>
+<generatorID>32000028-1F2E-78D8-10D9-FD091FCA8157</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DV" id="99903C7C-22AD-E28B-4A1C-E805991DD8B2">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 16:58:45 UTC</createdTime>
+<generatorID>6834AE60-0C04-D62A-02BD-46F3F149503C</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="8F08E5BC-19B3-E45D-BACF-41C14F19B2A1">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 16:58:45 UTC</createdTime>
+<generatorID>0B616259-478F-E241-13B2-5DD4D639FFBE</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_Paterno" id="1ED35472-ACC9-7526-DB22-E6813FECF520">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 16:58:45 UTC</createdTime>
+<generatorID>62464287-8259-F013-0F43-785A8B6CD482</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_Materno" id="58806FAB-72FD-809C-F658-124898C09F2A">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 16:58:45 UTC</createdTime>
+<generatorID>B6901FEE-01BB-2E48-659C-5EC82CEFF715</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dirección" id="B9171F29-6542-4AAC-5EB5-7F10FA39E722">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 16:58:45 UTC</createdTime>
+<generatorID>22F6C6C2-474F-A594-D556-8F8EC06DED29</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Teléfono" id="F781AEE4-6396-9976-9083-3AD3C70ED904">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 16:58:45 UTC</createdTime>
+<generatorID>C389738D-2781-2914-AA2A-5EF25EBA37FA</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="BF2AD72E-34B6-BF24-0C4A-B3C21AB64A06">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 16:58:45 UTC</createdTime>
+<generatorID>EB42DB6D-8A03-E9B8-1C22-31A4D57EE663</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Nacimiento" id="919A0B26-6148-ADBD-D870-5FEF03996D2D">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 16:58:45 UTC</createdTime>
+<generatorID>84E59018-68A1-F4FA-4F70-8F88E666B87E</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9791C776-CA3E-C9FA-0C0A-812BE6673645" name="ROL_PK">
+<createdBy>elilo</createdBy>
+<createdTime>2023-11-02 16:58:45 UTC</createdTime>
+<generatorID>9BD5B093-7F6B-F8B1-C7AC-B48874D17131</generatorID>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B48BFD9A-3C7D-D46D-E814-B1218914A39E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

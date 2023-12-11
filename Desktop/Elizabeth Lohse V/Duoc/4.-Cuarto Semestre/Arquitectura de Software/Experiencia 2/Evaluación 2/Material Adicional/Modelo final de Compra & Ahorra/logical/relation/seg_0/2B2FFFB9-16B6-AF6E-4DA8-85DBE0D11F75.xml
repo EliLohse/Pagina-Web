@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRODUCTO_BOLETA" directorySegmentName="seg_0" id="2B2FFFB9-16B6-AF6E-4DA8-85DBE0D11F75">
+<createdBy>elilo</createdBy>
+<createdTime>2023-10-30 23:22:16 UTC</createdTime>
+<ownerDesignName>Modelo final de Compra &amp; Ahorra</ownerDesignName>
+<engineerTo>
+<item key="C1F23950-88EC-3EB4-816B-5CD31EC5054F" value="true"/>
+</engineerTo>
+<sourcePk>7C007F3B-EC93-A6B1-D0A1-93509AD6D9DA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6D539D7B-773B-2937-18C3-E5E23D50A950</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1782A324-48F7-A687-04FA-03FE675F5EBA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
